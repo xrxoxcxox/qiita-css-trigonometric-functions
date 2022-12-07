@@ -6,9 +6,14 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "css:watch": "postcss style.css -o dist.css -w"
   },
   "devDependencies": {
+    "postcss": "^8.4.19",
+    "postcss-cli": "^10.1.0",
+    "postcss-for": "^2.1.1",
+    "postcss-preset-env": "^7.8.3",
     "vite": "^3.2.3"
   }
 }
